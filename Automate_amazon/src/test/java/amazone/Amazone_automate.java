@@ -20,13 +20,13 @@ public class Amazone_automate {
 	       
 	       watchshoppingPage.ClickWatchShoppingPage();
 	       
-		BuyAirPodPage buyAirpodPage = new BuyAirPodPage (driver);
-		  
-		buyAirpodPage.OpenBuyAirPodPage();
-		
-		VisitAppleStore visitAppleStore = new VisitAppleStore(driver);
-		
-		visitAppleStore.OpenVisitAppleStore();
+//		BuyAirPodPage buyAirpodPage = new BuyAirPodPage (driver);
+//		  
+//		buyAirpodPage.OpenBuyAirPodPage();
+//		
+//		VisitAppleStore visitAppleStore = new VisitAppleStore(driver);
+//		
+//		visitAppleStore.OpenVisitAppleStore();
 		 //testCase1
 		String url = driver.getCurrentUrl();
 		
