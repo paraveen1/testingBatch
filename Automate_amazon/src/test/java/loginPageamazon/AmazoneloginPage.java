@@ -18,12 +18,12 @@ public static void main(String[] args) throws InterruptedException {
 		amazonloginpage.singinPage();
 		amazonloginpage.entermobilenumber("9860067721");
 		Thread.sleep(5000);
-		amazonloginpage.ClickOncontinueButton();
-	    Thread.sleep(5000);
-		amazonloginpage.enterPassword("jkdigital19");
-		Thread.sleep(5000);
-		amazonloginpage.ClickOnsignInButton();
-		Thread.sleep(5000);
+//		amazonloginpage.ClickOncontinueButton();
+//	    Thread.sleep(5000);
+//		amazonloginpage.enterPassword("jkdigital19");
+//		Thread.sleep(5000);
+//		amazonloginpage.ClickOnsignInButton();
+//		Thread.sleep(5000);
 		
 		amazonloginpage.accountAndlist(driver);
 		amazonloginpage.signOutbutton(driver);
